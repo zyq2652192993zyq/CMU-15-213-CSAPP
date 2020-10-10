@@ -1,6 +1,6 @@
 # README
 
-# Introduction
+## Introduction
 
 实验材料都在名为`datalab-handout.tar`的文件内。解压缩：
 
@@ -18,9 +18,7 @@ $ tar xvf datalab-handout.tar
 
 检测成功后，使用` btest` 测试 每一个函数功能方面是否正确无误。使用方法：`./btest`，如果某个函数错误，会显示错误的数据，以及正确的数据。
 
-# Puzzles
-
-## 1. Bit Manipulations
+## Puzzles
 
 下面的表格里`Rating`代表难度等级，`Max ops`代表使用运算符完成每个程序的最大次数。
 
@@ -287,6 +285,27 @@ int isLessOrEqual(int x, int y) {
 
 
 
+
+## Autograding
+
+```bash
+$ make
+$ ./btest
+```
+
+第一次执行`make`的时候报错：
+
+```
+/usr/include/stdio.h:27:10: fatal error: bits/libc-header-start.h: No such file or directory
+ #include <bits/libc-header-start.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
+问题是安装GCC的时候环境没有安装完善，解决办法是执行：
+
+```bash
+$ sudo apt-get install gcc-multilib
+```
 
 
 
