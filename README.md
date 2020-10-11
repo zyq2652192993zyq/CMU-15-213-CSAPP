@@ -10,7 +10,7 @@ Labs Link: <http://csapp.cs.cmu.edu/3e/labs.html>
 
 **You can view my implementation through following links**
 
-* Data Lab
+* [Data Lab](https://github.com/zyq2652192993zyq/CMU-15-213-CSAPP/tree/master/Data-Lab)
 * Bomb Lab
 * Attack Lab
 * Cache Lab
