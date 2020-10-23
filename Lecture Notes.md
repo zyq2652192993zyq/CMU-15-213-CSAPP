@@ -1,26 +1,18 @@
 > # Lecture Notes
 
-Course Schedule: <http://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html>
-
-Labs Link: <http://csapp.cs.cmu.edu/3e/labs.html>
-
-Reference: <https://www.jianshu.com/nb/35143394>
-
-[TOC]
-
-# Lecture 01: Overviews
+## Lecture 01: Overviews
 
 
 
-# Lecture 02: Bits, Bytes and Ints-Part1
+## Lecture 02: Bits, Bytes and Ints-Part1
 
 
 
-# Lecture 03: Bits, Bytes and Ints-Part2
+## Lecture 03: Bits, Bytes and Ints-Part2
 
 
 
-# Lecture 04: Floating Point
+## Lecture 04: Floating Point
 
 
 
@@ -28,7 +20,7 @@ Reference: <https://www.jianshu.com/nb/35143394>
 
 
 
-# Lecture 11: The Memory Hierarchy
+## Lecture 11: The Memory Hierarchy
 
 > 做Cache Lab在学完Lecture 11和12就可以开始了，开始前可以通过Recitation 6: C Review、C Boot Camp和Recitation 7: Cache Lab and Blocking来复习C语言和了解实验的要求
 
